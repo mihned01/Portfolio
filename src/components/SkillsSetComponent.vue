@@ -16,18 +16,18 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-import htmlImage from '@/assets/skill_icons/HTML5_logo.png';
-import cssImage from '@/assets/skill_icons/CSS3_logo.png';
-import jsImage from '@/assets/skill_icons/js_logo.svg';
-import vueImage from '@/assets/skill_icons/vue.svg';
-import tailwindImage from '@/assets/skill_icons/tailwind_css.png';
-import githubImage from '@/assets/skill_icons/github-icon.png';
-import figmaImage from '@/assets/skill_icons/Figma-logo.png';
-import photoshopIcon from '@/assets/skill_icons/Photoshop.png';
-import illustratorIcon from '@/assets/skill_icons/Illustrator.png';
-import indesignIcon from '@/assets/skill_icons/InDesign.png';
-import afterEffectsIcon from '@/assets/skill_icons/After-Effects-Logo.png';
-import premiereProIcon from '@/assets/skill_icons/Premiere-Pro.png';
+import htmlImage from '@/assets/HTML5_logo-min.png';
+import cssImage from '@/assets/CSS3_logo-min.png';
+import jsImage from '@/assets/JavaScript-logo-min.png';
+import vueImage from '@/assets/vue-logo-min.png';
+import tailwindImage from '@/assets/tailwind_css-min.png';
+import githubImage from '@/assets/github-icon-min.png';
+import figmaImage from '@/assets/Figma-logo-min.png';
+import photoshopIcon from '@/assets/Photoshop-min.png';
+import illustratorIcon from '@/assets/Illustrator-min.png';
+import indesignIcon from '@/assets/InDesign-min.png';
+import afterEffectsIcon from '@/assets/After-Effects-Logo-min.png';
+import premiereProIcon from '@/assets/Premiere-Pro-min.png';
 
 
 let sectionHeading = ref('My Skills');

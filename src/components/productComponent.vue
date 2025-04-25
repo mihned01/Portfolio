@@ -5,14 +5,14 @@
       <div class="cardsWrapper">
         
         <div class="productCard">
-          <img src="@/assets/plastic.png" alt="Our World Free of Plastic">
+          <img src="@/assets/plastic-min.png" alt="Our World Free of Plastic">
           <h3 class="productTitle">Our World Free of Plastic</h3>
           <div class="underline"></div>
           <a href="https://mihned01.github.io/1st-semester_project/" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="productCard">
-          <img src="@/assets/RecipeWebpage.png" alt="Recipe Webpage">
+          <img src="@/assets/RecipeWebpage-min.png" alt="Recipe Webpage">
           <h3 class="productTitle">Recipe Webpage</h3>
           <div class="underline"></div>
           <a href="https://mihned01.github.io/Recipe-Webpage-2024/" target="_blank" class="custom-button">View</a>
@@ -20,7 +20,7 @@
 
        
         <div class="productCard">
-          <img src="@/assets/centrum.png" alt="Esbjerg Centrum">
+          <img src="@/assets/centrum-min.png" alt="Esbjerg Centrum">
           <h3 class="productTitle">Esbjerg Centrum Catalogue</h3>
           <div class="underline"></div>
           <a href="src/assets/Catalogue.pdf" download="Catalogue.pdf" class="custom-button">View</a>
@@ -28,7 +28,7 @@
 
         
         <div class="productCard">
-          <img src="@/assets/FashionApp-mockup.png" alt="App Prototype">
+          <img src="@/assets/FashionApp-mockup-min.png" alt="App Prototype">
           <h3 class="productTitle">App Prototype</h3>
           <div class="underline"></div>
           <a href="https://www.figma.com/proto/vcIZqhSDZSeXHoivHBam3k/Fashion-app?page-id=0%3A1&node-id=15-122&starting-point-node-id=15%3A122&t=uphpvKAlBmF01k0b-1" target="_blank" class="custom-button">View</a>
@@ -36,7 +36,7 @@
 
     
         <div class="productCard">
-          <img src="@/assets/poster.png" alt="Poster">
+          <img src="@/assets/poster-min.png" alt="Poster">
           <h3 class="productTitle">Inphographic poster</h3>
           <div class="underline"></div>
           <a href="src/assets/Lies-poster.pdf" download="Lies-poster.pdf" class="custom-button">Download</a>

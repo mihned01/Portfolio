@@ -16,7 +16,7 @@
         </div>
         <div class="heroContentRight">
             <div class="heroImageContainer">
-                <img class="heroImage" src="../assets/goooodd.jpg" alt="my image">
+                <img class="heroImage" src="../assets/goooodd-min.jpg" alt="my image">
             </div>
         </div>
     </section>
