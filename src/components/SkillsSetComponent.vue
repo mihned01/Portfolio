@@ -1,0 +1,207 @@
+<template>
+    <section class="skillsSection">
+        <div class="skillsContainer">
+            <h2>{{ sectionHeading }}</h2>
+            <div class="cardsWrapper" ref="cardsWrapper">
+                <div class="skillCard" v-for="(item, idx) in skillItems" :key="idx">
+                    <img :src="item.image" :alt="item.name" class="skillIcon" />
+                    <h3 class="skillTitle">{{ item.name }}</h3>
+                    <div class="underline"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+
+import htmlImage from '@/assets/skill_icons/HTML5_logo.png';
+import cssImage from '@/assets/skill_icons/CSS3_logo.png';
+import jsImage from '@/assets/skill_icons/js_logo.svg';
+import vueImage from '@/assets/skill_icons/vue.svg';
+import tailwindImage from '@/assets/skill_icons/tailwind_css.png';
+import githubImage from '@/assets/skill_icons/github-icon.png';
+import figmaImage from '@/assets/skill_icons/Figma-logo.png';
+import photoshopIcon from '@/assets/skill_icons/Photoshop.png';
+import illustratorIcon from '@/assets/skill_icons/Illustrator.png';
+import indesignIcon from '@/assets/skill_icons/InDesign.png';
+import afterEffectsIcon from '@/assets/skill_icons/After-Effects-Logo.png';
+import premiereProIcon from '@/assets/skill_icons/Premiere-Pro.png';
+
+
+let sectionHeading = ref('My Skills');
+
+let skillItems = ref([
+    { image: htmlImage, name: 'HTML' },
+    { image: cssImage, name: 'CSS' },
+    { image: jsImage, name: 'JavaScript' },
+    { image: vueImage, name: 'Vue.js' },
+    { image: tailwindImage, name: 'Tailwind' },
+    { image: githubImage, name: 'GitHub' },
+    { image: figmaImage, name: 'Figma' },
+    { image: photoshopIcon, name: 'Photoshop' },
+    { image: illustratorIcon, name: 'Illustrator' },
+    { image: indesignIcon, name: 'InDesign' },
+    { image: afterEffectsIcon, name: 'After Effects' },
+    { image: premiereProIcon, name: 'Premiere Pro' },
+]);
+
+const cardsWrapper = ref(null);
+
+onMounted(() => {
+    const cards = cardsWrapper.value.querySelectorAll('.skillCard');
+    cards.forEach((card) => {
+        const icon = card.querySelector('.skillIcon');
+        const title = card.querySelector('.skillTitle');
+        const underline = card.querySelector('.underline');
+
+        card.addEventListener('mouseenter', () => {
+            icon.classList.add('bouncing');
+            title.classList.add('titleHover');
+            underline.classList.add('underlineExpand');
+        });
+
+        card.addEventListener('mouseleave', () => {
+            icon.classList.remove('bouncing');
+            title.classList.remove('titleHover');
+            underline.classList.remove('underlineExpand');
+        });
+    });
+});
+</script>
+
+
+<style>
+.skillsSection {
+    background-color: #f3eeea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: 0 40px 40px 40px;
+}
+
+.skillsContainer h2 {
+    color: #2d2d2d;
+    font-size: 45px;
+    font-weight: bold;
+    margin:30px 0 40px 0;
+    border-bottom: #2d2d22 3px solid;
+}
+
+.cardsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin: 0 40px ;
+}
+
+.skillCard {
+    background-color: #ffffff;
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skillCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skillIcon {
+    width: 60px;
+    height: 60px;
+    margin: 15px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.bouncing {
+    animation: bounce 0.6s infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.skillTitle {
+    color: #3b352d;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 15px 10px 0 10px;
+    display: inline-block;
+    text-align: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.titleHover {
+    color: #ceb199;
+    transform: translateY(-5px);
+}
+
+.underline {
+    width: 0;
+    height: 3px;
+    background-color: #ceb199;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    transition: width 0.3s ease;
+}
+
+.underlineExpand {
+    width: calc(100% - 30px); 
+}
+
+@media (max-width: 768px) {
+    .skillsContainer h2 {
+        font-size: 28px; 
+    }
+
+    .cardsWrapper {
+        flex-direction: column; 
+        gap: 15px;
+    }
+
+    .skillCard {
+        width: 100%; 
+        max-width: 280px;
+    }
+
+    .skillTitle {
+        font-size: 18px; 
+    }
+
+    .skillIcon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+</style>
