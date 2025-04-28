@@ -27,7 +27,7 @@
   .footer {
     background-color: #2d2d2d;
     color: #ceb199;
-    padding: 40px 20px; /* Increased padding to make it taller */
+    padding: 40px 20px;
     text-align: center;
   }
   
@@ -37,7 +37,6 @@
     align-items: center;
     justify-content: center;
   }
-  
 
   .footer-links {
     display: flex;

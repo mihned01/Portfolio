@@ -23,10 +23,10 @@ nav a:hover {
 
 @media (max-width: 768px) {
   nav {
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center-align links */
-    gap: 15px; /* Adjust spacing between links */
-    font-size: 20px; /* Reduce font size for smaller screens */
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    font-size: 10px; 
   }
 }
 </style>

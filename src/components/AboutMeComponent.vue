@@ -90,24 +90,24 @@ onMounted(() => {
 }
 
 .aboutMeContainer a {
-      display: inline-block;
-      padding: 10px 20px;
-      font-family: Raleway, sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      background-color: #2d2d2d;
-      color: #ffffff;
-      border: 1px solid transparent;
-      border-radius: 8px;
-      text-decoration: none;
-      cursor: pointer;
-      margin-top: 20px;
-      box-sizing: border-box;
-    }
-    .aboutMeContainer a:hover {
-      background-color: #8a7969;
-      border: #f3eeea 1px solid;
-    }
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.aboutMeContainer a:hover {
+    background-color: #8a7969;
+    border: #f3eeea 1px solid;
+}
 
 .workProcessContainer {
     display: flex;
@@ -123,7 +123,7 @@ onMounted(() => {
     color: #ffffff;
     font-size: 45px;
     font-weight: bold;
-    margin:40px 0 40px ;
+    margin:40px ;
     border-bottom: #ffffff 3px solid;
 }
 
@@ -288,11 +288,14 @@ onMounted(() => {
 
     .cardsContainer {
         gap: 15px; 
+        display: flex;  
+        flex-wrap: wrap;
     }
 
     .card {
         width: 100%; 
         max-width: 280px; 
+        margin: 10px;
     }
 
     .card h3 {

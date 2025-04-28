@@ -1,7 +1,5 @@
 <script setup>
 import ProductComponent from '@/components/productComponent.vue';
-import ProjectsComponent from '@/components/ProjectsComponent.vue';
-
 </script>
 
 <template>
@@ -9,8 +7,6 @@ import ProjectsComponent from '@/components/ProjectsComponent.vue';
 
     <ProductComponent/>
 
-      
-    
   </main>
 </template>
 

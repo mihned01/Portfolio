@@ -130,24 +130,27 @@ let myPosition= ref('Multimedia Design student')
 }
 
 .download-button {
-      display: inline-block;
-      padding: 10px 20px;
-      font-family: Raleway, sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      background-color: #2d2d2d;
-      color: #ffffff;
-      border: none;
-      border-radius: 8px;
-      text-decoration: none;
-      cursor: pointer;
-      margin-top: 20px;
-    }
-    .download-button:hover {
-      background-color: #8a7969;
-    }
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+    
+.download-button:hover {
+    background-color: #8a7969;
+    border: #f3eeea 1px solid;
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
     .hero {
         flex-direction: column; 
         height: auto; 
@@ -155,8 +158,9 @@ let myPosition= ref('Multimedia Design student')
     }
 
     .heroTextBackround {
-        height: 50%; 
-        clip-path: none; 
+        clip-path: none;
+        background-color: #e8d6c6;
+        height: 43.5%;
         opacity: 0.9; 
     }
 
@@ -214,6 +218,5 @@ let myPosition= ref('Multimedia Design student')
     .heroTextContainer {
         margin: 0 20px; 
     }
-   
 }
 </style>

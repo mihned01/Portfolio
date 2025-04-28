@@ -76,7 +76,7 @@ function goToProjectDetails(projectId) {
   border-bottom: #2d2d22 3px solid;
 }
 
-.cardsContainer {
+.cardshContainer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

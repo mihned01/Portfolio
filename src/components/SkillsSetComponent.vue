@@ -2,7 +2,7 @@
     <section class="skillsSection">
         <div class="skillsContainer">
             <h2>{{ sectionHeading }}</h2>
-            <div class="cardsWrapper" ref="cardsWrapper">
+            <div class="skillsWrapper" ref="skillsWrapper">
                 <div class="skillCard" v-for="(item, idx) in skillItems" :key="idx">
                     <img :src="item.image" :alt="item.name" class="skillIcon" />
                     <h3 class="skillTitle">{{ item.name }}</h3>
@@ -47,10 +47,10 @@ let skillItems = ref([
     { image: premiereProIcon, name: 'Premiere Pro' },
 ]);
 
-const cardsWrapper = ref(null);
+const skillsWrapper = ref(null);
 
 onMounted(() => {
-    const cards = cardsWrapper.value.querySelectorAll('.skillCard');
+    const cards = skillsWrapper.value.querySelectorAll('.skillCard');
     cards.forEach((card) => {
         const icon = card.querySelector('.skillIcon');
         const title = card.querySelector('.skillTitle');
@@ -99,7 +99,7 @@ onMounted(() => {
     border-bottom: #2d2d22 3px solid;
 }
 
-.cardsWrapper {
+.skillsWrapper {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -125,7 +125,7 @@ onMounted(() => {
 }
 
 .skillCard:hover {
-    transform: translateY(-5px);
+    transform: scale(1.05) translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
@@ -184,7 +184,7 @@ onMounted(() => {
         font-size: 28px; 
     }
 
-    .cardsWrapper {
+    .skillsWrapper {
         flex-direction: column; 
         gap: 15px;
     }
@@ -192,6 +192,7 @@ onMounted(() => {
     .skillCard {
         width: 100%; 
         max-width: 280px;
+        margin: 10px;
     }
 
     .skillTitle {
