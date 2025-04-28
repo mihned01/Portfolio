@@ -8,7 +8,6 @@
           <img src="@/assets/plastic-min.png" alt="Our World Free of Plastic">
           <h3 class="productTitle">"Our Planet Free of Plastic"</h3>
           <h4 class="productRole">My role: Web developer</h4>
-          <div class="underline"></div>
           <a href="https://mihned01.github.io/1st-semester_project/" target="_blank" class="custom-button">View</a>
         </div>
 
@@ -16,7 +15,6 @@
           <img src="@/assets/RecipeWebpage-min.png" alt="Recipe Webpage">
           <h3 class="productTitle">Recipe Webpage</h3>
           <h4 class="productRole">My role: Web developer</h4>
-          <div class="underline"></div>
           <a href="https://mihned01.github.io/Recipe-Webpage-2024/" target="_blank" class="custom-button">View</a>
         </div>
         
@@ -24,15 +22,13 @@
           <img src="@/assets/FashionApp-mockup-min.png" alt="App Prototype">
           <h3 class="productTitle">Fashion App Prototype</h3>
           <h4 class="productRole">My role: UX Designer</h4>
-          <div class="underline"></div>
           <a href="https://www.figma.com/proto/vcIZqhSDZSeXHoivHBam3k/Fashion-app?page-id=0%3A1&node-id=15-122&starting-point-node-id=15%3A122&t=uphpvKAlBmF01k0b-1" target="_blank" class="custom-button">View</a>
         </div>
-        
+
         <div class="productCard">
           <img src="@/assets/videoPortfolio.jpg" alt="Video Application">
           <h3 class="productTitle">My Multimedia Application Video</h3>
           <h4 class="productRole">My role: Video editor</h4>
-          <div class="underline"></div>
           <a href="https://youtu.be/l8IOkG6TJkA" target="_blank" class="custom-button">View</a>
         </div>
 
@@ -40,7 +36,6 @@
           <img src="@/assets/centrum-min.png" alt="Esbjerg Centrum">
           <h3 class="productTitle">Esbjerg Centrum Catalogue</h3>
           <h4 class="productRole">My role: Content creator</h4>
-          <div class="underline"></div>
           <a href="src/assets/Catalogue.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
@@ -48,15 +43,9 @@
           <img src="@/assets/poster-min.png" alt="Poster">
           <h3 class="productTitle">Inphographic poster</h3>
           <h4 class="productRole">My role: Content creator</h4>
-          <div class="underline"></div>
           <a href="src/assets/Lies-poster.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
-        
-
-       
-
-  
         
       </div>
     </div>
@@ -92,7 +81,7 @@
     font-size: 45px;
     font-weight: bold;
     margin:30px 0 40px 0;
-    border-bottom: #2d2d22 3px solid;
+    border-bottom: #2d2d2d 3px solid;
 }
 
 .productWrapper {
@@ -134,19 +123,6 @@
 }
 
 
-.bouncing {
-  animation: bounce 0.6s infinite alternate;
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(-10px);
-    }
-}
-
 .productTitle {
     color: #3b352d;
     font-size: 28px;
@@ -171,19 +147,6 @@
   transform: translateY(-5px);
 }
 
-.underline {
-  width: 0;
-  height: 3px;
-  background-color: #ceb199;
-  margin: 0 auto;
-  margin-top: -5px;
-  margin-bottom: 15px;
-  transition: width 0.3s ease;
-}
-
-.underlineExpand {
-  width: calc(100% - 30px); 
-}
 
 .productCard a {
   display: inline-block;
