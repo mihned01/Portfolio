@@ -27,7 +27,7 @@
 
         <div class="productCard">
           <img src="@/assets/videoPortfolio.jpg" alt="Video Application">
-          <h3 class="productTitle">My Multimedia Application Video</h3>
+          <h3 class="productTitle">Multimedia Application Video</h3>
           <h4 class="productRole">My role: Video editor</h4>
           <a href="https://youtu.be/l8IOkG6TJkA" target="_blank" class="custom-button">View</a>
         </div>

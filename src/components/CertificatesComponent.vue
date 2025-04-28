@@ -6,56 +6,56 @@
         
         <div class="certificateCard">
           <img src="@/assets/Certificate1.png" alt="Fundamentals of Graphic Design">
-          <h3 class="certificateTitle">"Fundamentals of Graphic Design"</h3>
+          <h3 class="certificateTitle">Fundamentals of Graphic Design</h3>
           <h4 class="certificatePlace">California Institude of the Arts - Coursera</h4>
           <a href="src/assets/FundamentalsOfGraphicDesign.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate2.png" alt="Introduction to Imagemaking">
-          <h3 class="certificateTitle">"Introduction to Imagemaking"</h3>
+          <h3 class="certificateTitle">Introduction to Imagemaking</h3>
           <h4 class="certificatePlace">California Institude of the Arts - Coursera</h4>
           <a href="src/assets/IntroductionToImagemaking.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate3.png" alt="Introduction to Typography">
-          <h3 class="certificateTitle">"Introduction to Typography"</h3>
+          <h3 class="certificateTitle">Introduction to Typography</h3>
           <h4 class="certificatePlace">California Institude of the Arts - Coursera</h4>
           <a href="src/assets/IntroductionToTypography.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate5.png" alt="Introduction to UI Design">
-          <h3 class="certificateTitle">"Introduction to UI Design"</h3>
+          <h3 class="certificateTitle">Introduction to UI Design</h3>
           <h4 class="certificatePlace">University of Minnesota - Coursera</h4>
           <a href="src/assets/IntroductionToUiDesign.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate6.png" alt="Build Wireframes and Low-Fidelity Prototypes">
-          <h3 class="certificateTitle">"Build Low-Fidelity Prototypes"</h3>
+          <h3 class="certificateTitle">Build Low-Fidelity Prototypes</h3>
           <h4 class="certificatePlace">California Institude of the Arts - Coursera</h4>
           <a href="src/assets/BuildWireframes.pdf" target="_blank" class="custom-button">View</a>
         </div>
         
         <div class="certificateCard">
           <img src="@/assets/Certificate8.png" alt="Computer Hardware and Software">
-          <h3 class="certificateTitle">"Computer Hardware & Software"</h3>
+          <h3 class="certificateTitle">Computer Hardware & Software</h3>
           <h4 class="certificatePlace">University of California, Irvine - Coursera</h4>
           <a href="src/assets/ComputerHardwareAndSoftware.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate7.png" alt="Management Fundamentals">
-          <h3 class="certificateTitle">"Management Fundamentals"</h3>
+          <h3 class="certificateTitle">Management Fundamentals</h3>
           <h4 class="certificatePlace">University of Pennsylvania - Coursera</h4>
           <a href="src/assets/ManagementFundamentals.pdf" target="_blank" class="custom-button">View</a>
         </div>
 
         <div class="certificateCard">
           <img src="@/assets/Certificate7.png" alt="Management Fundamentals">
-          <h3 class="certificateTitle">"Data, Security & Privacsy"</h3>
+          <h3 class="certificateTitle">Data, Security & Privacsy</h3>
           <h4 class="certificatePlace">University of California, Irvine - Coursera</h4>
           <a href="src/assets/DataSecurityAndPrivacy.pdf" target="_blank" class="custom-button">View</a>
         </div>
