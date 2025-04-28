@@ -34,6 +34,8 @@ let myPosition= ref('Multimedia Design student')
 <style>
 .hero {
     background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
     height: 93vh;
     display: flex;
     justify-content: center;
@@ -59,6 +61,7 @@ let myPosition= ref('Multimedia Design student')
     flex-direction: row;
     flex: space-evenly;
     justify-content: flex-start;
+    text-align: left;
     align-items: center;
     width: 100%;
     height: fit-content;
@@ -78,6 +81,7 @@ let myPosition= ref('Multimedia Design student')
 }
 
 .heroContentLeft h2 {
+    text-align: left;
     color: #2D2D2D;
     font-size: 45px;
     font-weight: bold;
@@ -108,8 +112,8 @@ let myPosition= ref('Multimedia Design student')
 .heroImageContainer {
     background-color: #ffffff; 
     border-radius: 50%; 
-    width: 700px; 
-    height: 700px; 
+    width: 600px; 
+    height: 600px; 
     display: flex; 
     justify-content: right;
     justify-content: center;
@@ -186,5 +190,30 @@ let myPosition= ref('Multimedia Design student')
         font-size: 14px; 
         padding: 6px 12px; 
     }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+   .heroContentRight{
+        margin: 0 10px; 
+    }
+
+    .heroImageContainer {
+        width: 400px; 
+        height: 400px; 
+    }
+
+    .heroImage {
+        width: 90%; 
+        height: 90%; 
+    }
+
+    .download-button {
+        font-size: 16px; 
+        padding: 8px 16px; 
+    }
+    .heroTextContainer {
+        margin: 0 20px; 
+    }
+   
 }
 </style>
